@@ -15,8 +15,8 @@
 }
 
 .borderCircle {
+  border: 1px solid #2f2963;
   border-radius: 50%;
-  border: 2px solid #281a94;
 }
 
 .h2 {
@@ -28,14 +28,13 @@
   font-weight: bolder;
   font-size: 18px;
   margin: 1.5rem;
-  text-align: center;
   justify-content: center;
   border: 1px solid #281a94;
   background: #2f2963;
   padding: 1.4rem;
   color: azure;
   border-radius: 1rem;
-  width: 21rem;
+  width: 19rem;
 }
 
 .a:hover {

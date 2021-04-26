@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import utilStyles from '../styles/Home.module.css';
+import utilStyles from '../styles/Home.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -15,8 +15,8 @@ export default function Home() {
         <Image
           src="/images/profile.jpg"
           className={utilStyles.borderCircle}
-          width={200}
-          height={170}
+          width={150}
+          height={150}
           alt="profile"
         />
       </section>
