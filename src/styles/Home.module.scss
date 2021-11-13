@@ -1,43 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-.headingMd {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
-}
+main {
+  .headingMd {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
 
-.links {
-  display: grid;
-  text-align: center;
-  justify-content: center;
-  color: azure;
-}
+    img {
+      border-radius: 50%;
+      width: 10rem;
+      height: 10rem;
+      border: 1px solid #2f2963;
+    }
+  }
 
-.borderCircle {
-  border: 1px solid #2f2963;
-  border-radius: 50%;
-}
+  .links {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    color: azure;
 
-.h2 {
-  margin: auto;
-  color: #999;
-}
+    .profile {
+      margin-top: -1rem;
 
-.a {
-  font-weight: bolder;
-  font-size: 18px;
-  margin: 1.5rem;
-  justify-content: center;
-  border: 1px solid #281a94;
-  background: #2f2963;
-  padding: 1.4rem;
-  color: azure;
-  border-radius: 1rem;
-  width: 19rem;
-}
+      .h2 {
+        margin: auto;
+        color: #999;
+        line-height: 2rem;
+      }
+    }
 
-.a:hover {
-  background: #231e4b;
-  transition: 0.2s;
+    .a {
+      font-weight: bolder;
+      font-size: 18px;
+      margin: 1.5rem;
+      justify-content: center;
+      border: 1px solid #281a94;
+      background: #2f2963;
+      padding: 1.4rem;
+      color: azure;
+      border-radius: 1rem;
+      width: 19rem;
+
+      @media screen and (max-width: 2500px) and (min-width: 768px) {
+        width: 24rem;
+      }
+
+      @media (max-width: 320px) {
+        width: 17rem;
+      }
+    }
+
+    .a:hover {
+      background: #231e4b;
+      transition: 0.2s;
+    }
+  }
 }
