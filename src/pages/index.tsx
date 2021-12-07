@@ -44,7 +44,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="https://www.twitch.tv/guidev22">
+          <Link href="https://www.twitch.tv/guidevgamer">
             <a className={utilStyles.a}>
               <BsTwitch size={20} />
               Twitch
