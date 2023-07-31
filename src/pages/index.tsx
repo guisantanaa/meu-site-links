@@ -4,11 +4,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { AiFillGithub } from 'react-icons/ai';
 import {
-  BsTwitch,
   BsTwitter,
   BsFacebook,
   BsLinkedin,
   BsInstagram,
+  BsWhatsapp,
 } from 'react-icons/bs';
 
 export default function Home() {
@@ -34,20 +34,20 @@ export default function Home() {
           <div className={utilStyles.profile}>
             <h2>Guilherme Santana</h2>
             <h2 className={utilStyles.h2}>Front End Developer 🧑‍💻</h2>
-            <h2 className={utilStyles.h2}>Gamer 🎮</h2>
+            <h2 className={utilStyles.h2}>Focusing E-commerce</h2>
           </div>
+
+          <Link href="https://contate.me/gsfrontsolutions">
+          <a className={utilStyles.a}>
+              <BsWhatsapp size={18} />
+              WhatsApp
+            </a>
+          </Link>
 
           <Link href="https://github.com/guisantanaa">
             <a className={utilStyles.a}>
               <AiFillGithub size={20} />
               Github
-            </a>
-          </Link>
-
-          <Link href="https://www.twitch.tv/guidevgamer">
-            <a className={utilStyles.a}>
-              <BsTwitch size={20} />
-              Twitch
             </a>
           </Link>
 
@@ -65,7 +65,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="https://www.linkedin.com/in/guilherme-santana-185184170/">
+          <Link href="https://www.linkedin.com/in/guilhermesantanaa/">
             <a className={utilStyles.a}>
               <BsLinkedin size={20} />
               Linkedin
